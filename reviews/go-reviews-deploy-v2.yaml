@@ -2,17 +2,17 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: go-service-reviews
-  name: go-service-reviews 
+    app: go-service-reviews-v2
+  name: go-service-reviews-v2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: go-service-reviews
+      app: go-service-reviews-v2
   template:
     metadata:
       labels:
-        app: go-service-reviews 
+        app: go-service-reviews-v2
     spec:
       containers:
       - image: techacademyti/go-service-reviews
