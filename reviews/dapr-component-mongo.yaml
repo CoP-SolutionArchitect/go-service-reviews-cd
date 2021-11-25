@@ -11,7 +11,7 @@ spec:
   - name: username
     value: root  
   - name: password
-    value: 4IxFfCjxq3root@b7fe5df7f5c9  
+    value: "4IxFfCjxq3root@b7fe5df7f5c9"  
   - name: databaseName
     value: admin  
   
