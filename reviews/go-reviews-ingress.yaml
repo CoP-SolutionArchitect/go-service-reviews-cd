@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: "reviews.143-244-213-51.nip.io"
+  - host: "staging-reviews.143-244-213-51.nip.io"
     http:
       paths:
       - pathType: Prefix
