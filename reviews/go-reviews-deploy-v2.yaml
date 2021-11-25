@@ -13,6 +13,10 @@ spec:
     metadata:
       labels:
         app: go-service-reviews-v2
+      annotations:
+        dapr.io/enabled: "true"
+        dapr.io/app-id: "reviews"
+        dapr.io/app-port: "3000"
     spec:
       containers:
       - image: techacademyti/go-service-reviews
