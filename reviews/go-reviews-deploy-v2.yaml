@@ -18,7 +18,7 @@ spec:
         dapr.io/app-id: "reviews"
     spec:
       containers:
-      - image: techacademyti/go-service-reviews
+      - image: techacademyti/go-service-reviews:3
         imagePullPolicy: Always
         name: go-service-reviews
         ports:
