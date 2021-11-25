@@ -1,0 +1,17 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: component-mongo 
+spec:
+  type: state.mongodb
+  version: v1
+  metadata:
+  - name: host
+    value: my-mongodb.coop-cnp.svc.cluster.local  
+  - name: username
+    value: root  
+  - name: password
+    value: 4IxFfCjxq3root@b7fe5df7f5c9  
+  - name: databaseName
+    value: admin  
+  
