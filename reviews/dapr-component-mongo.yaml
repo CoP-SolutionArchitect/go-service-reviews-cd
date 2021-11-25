@@ -7,11 +7,11 @@ spec:
   version: v1
   metadata:
   - name: host
-    value: my-mongodb.coop-cnp.svc.cluster.local  
+    value: my-mongo-mongodb.mongodb.svc.cluster.local  
   - name: username
     value: root  
   - name: password
-    value: "4IxFfCjxq3root@b7fe5df7f5c9"  
+    value: "4IxFfCjxq3root"  
   - name: databaseName
     value: admin  
   
