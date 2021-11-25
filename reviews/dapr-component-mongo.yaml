@@ -1,7 +1,7 @@
 apiVersion: dapr.io/v1alpha1
 kind: Component
 metadata:
-  name: component-mongo 
+  name: mongodb 
 spec:
   type: state.mongodb
   version: v1
@@ -14,4 +14,6 @@ spec:
     value: "4IxFfCjxq3root"  
   - name: databaseName
     value: admin  
-  
+
+
+ 
