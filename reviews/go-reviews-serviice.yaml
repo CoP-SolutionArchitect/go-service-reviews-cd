@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: go-service-reviews-v2
+  labels:
+    app: go-service-reviews-v2
+spec:
+  selector:
+    app: go-service-reviews-v2
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80 
